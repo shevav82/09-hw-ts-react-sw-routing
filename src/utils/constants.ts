@@ -1,5 +1,4 @@
-// constants.ts
-import friend0 from '../assets/friend0.jpg'; // Добавьте friend0, если его нет
+import friend0 from '../assets/friend0.jpg'; 
 import friend1 from '../assets/friend1.jpg';
 import friend2 from '../assets/friend2.jpg';
 import friend3 from '../assets/friend3.jpg';
@@ -9,7 +8,7 @@ import friend6 from '../assets/friend6.jpg';
 import friend7 from '../assets/friend7.jpg';
 import friend8 from '../assets/friend8.jpg';
 import friend9 from '../assets/friend9.jpg';
-import { Item, Character } from './types'; // Убедитесь, что интерфейс Character определён
+import { Item, Character } from './types'; 
 
 export const base_url = 'https://sw-info-api.herokuapp.com';
 export const version = '/v1';
@@ -61,7 +60,7 @@ export const characters: { [key: string]: Character } = {
         id: 'yoda',
         name: "Yoda",
         img: friend9,
-        url: `${base_url}${version}/peoples/20` // Убедитесь, что ID 20 корректен
+        url: `${base_url}${version}/peoples/20` 
     },
     ewok: {
         id: 'ewok',
